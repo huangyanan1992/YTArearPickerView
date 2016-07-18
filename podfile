@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+target "YTArearPickerView" do
+pod 'JSONModel', '~> 1.2.0'
+end
+

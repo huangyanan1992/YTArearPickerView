@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YTArearPickerView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)buttonAction:(UIButton *)sender {
+    YTArearPickerView *arearPickerView = [YTArearPickerView arearPickerView];
+    [arearPickerView showArearPickerView];
+    [arearPickerView setArearBlock:^(NSString *arearStr,NSString *zipCode) {
+        NSLog(@"address:%@,zipCode:%@",arearStr,zipCode);
+        [sender setTitle:arearStr forState:UIControlStateNormal];
+    }];
 }
 
 @end

@@ -13,9 +13,20 @@
 		9A0BEF031D3CAF9500AA0470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BEF011D3CAF9500AA0470 /* Main.storyboard */; };
 		9A0BEF051D3CAF9500AA0470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BEF041D3CAF9500AA0470 /* Assets.xcassets */; };
 		9A0BEF081D3CAF9500AA0470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BEF061D3CAF9500AA0470 /* LaunchScreen.storyboard */; };
+		9A0BEF1C1D3CAFC500AA0470 /* province.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BEF101D3CAFC400AA0470 /* province.json */; };
+		9A0BEF1D1D3CAFC500AA0470 /* YTArearModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BEF121D3CAFC400AA0470 /* YTArearModel.m */; };
+		9A0BEF1E1D3CAFC500AA0470 /* YTArearPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BEF141D3CAFC400AA0470 /* YTArearPickerView.m */; };
+		9A0BEF1F1D3CAFC500AA0470 /* YTArearPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BEF151D3CAFC400AA0470 /* YTArearPickerView.xib */; };
+		9A0BEF201D3CAFC500AA0470 /* YTCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BEF171D3CAFC400AA0470 /* YTCityModel.m */; };
+		9A0BEF211D3CAFC500AA0470 /* YTProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BEF191D3CAFC500AA0470 /* YTProvinceModel.m */; };
+		9A0BEF221D3CAFC500AA0470 /* YTTownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BEF1B1D3CAFC500AA0470 /* YTTownModel.m */; };
+		9A0BEF251D3CE0CB00AA0470 /* YTArearBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BEF241D3CE0CB00AA0470 /* YTArearBaseModel.m */; };
+		E947B919745FF66D0FAD4680 /* libPods-YTArearPickerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 311EAFBC7369266BB5DE4BD6 /* libPods-YTArearPickerView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04565A11D96EA02F4CE966F9 /* Pods-YTArearPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTArearPickerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTArearPickerView/Pods-YTArearPickerView.debug.xcconfig"; sourceTree = "<group>"; };
+		311EAFBC7369266BB5DE4BD6 /* libPods-YTArearPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTArearPickerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0BEEF51D3CAF9500AA0470 /* YTArearPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTArearPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0BEEF91D3CAF9500AA0470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0BEEFB1D3CAF9500AA0470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,21 @@
 		9A0BEF041D3CAF9500AA0470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0BEF071D3CAF9500AA0470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A0BEF091D3CAF9500AA0470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0BEF101D3CAFC400AA0470 /* province.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province.json; sourceTree = "<group>"; };
+		9A0BEF111D3CAFC400AA0470 /* YTArearModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTArearModel.h; sourceTree = "<group>"; };
+		9A0BEF121D3CAFC400AA0470 /* YTArearModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTArearModel.m; sourceTree = "<group>"; };
+		9A0BEF131D3CAFC400AA0470 /* YTArearPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTArearPickerView.h; sourceTree = "<group>"; };
+		9A0BEF141D3CAFC400AA0470 /* YTArearPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTArearPickerView.m; sourceTree = "<group>"; };
+		9A0BEF151D3CAFC400AA0470 /* YTArearPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTArearPickerView.xib; sourceTree = "<group>"; };
+		9A0BEF161D3CAFC400AA0470 /* YTCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCityModel.h; sourceTree = "<group>"; };
+		9A0BEF171D3CAFC400AA0470 /* YTCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTCityModel.m; sourceTree = "<group>"; };
+		9A0BEF181D3CAFC500AA0470 /* YTProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTProvinceModel.h; sourceTree = "<group>"; };
+		9A0BEF191D3CAFC500AA0470 /* YTProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTProvinceModel.m; sourceTree = "<group>"; };
+		9A0BEF1A1D3CAFC500AA0470 /* YTTownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTownModel.h; sourceTree = "<group>"; };
+		9A0BEF1B1D3CAFC500AA0470 /* YTTownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTownModel.m; sourceTree = "<group>"; };
+		9A0BEF231D3CE0CB00AA0470 /* YTArearBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTArearBaseModel.h; sourceTree = "<group>"; };
+		9A0BEF241D3CE0CB00AA0470 /* YTArearBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTArearBaseModel.m; sourceTree = "<group>"; };
+		A28C0C95EA582D53A7F779BF /* Pods-YTArearPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTArearPickerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTArearPickerView/Pods-YTArearPickerView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E947B919745FF66D0FAD4680 /* libPods-YTArearPickerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2842A508B53E7951DFE82444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				311EAFBC7369266BB5DE4BD6 /* libPods-YTArearPickerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D5CE5AD02B800E620E49D75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04565A11D96EA02F4CE966F9 /* Pods-YTArearPickerView.debug.xcconfig */,
+				A28C0C95EA582D53A7F779BF /* Pods-YTArearPickerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A0BEEEC1D3CAF9500AA0470 = {
 			isa = PBXGroup;
 			children = (
 				9A0BEEF71D3CAF9500AA0470 /* YTArearPickerView */,
 				9A0BEEF61D3CAF9500AA0470 /* Products */,
+				3D5CE5AD02B800E620E49D75 /* Pods */,
+				2842A508B53E7951DFE82444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +104,7 @@
 		9A0BEEF71D3CAF9500AA0470 /* YTArearPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				9A0BEF0F1D3CAFAD00AA0470 /* ArearPickerView */,
 				9A0BEEFB1D3CAF9500AA0470 /* AppDelegate.h */,
 				9A0BEEFC1D3CAF9500AA0470 /* AppDelegate.m */,
 				9A0BEEFE1D3CAF9500AA0470 /* ViewController.h */,
@@ -79,6 +126,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A0BEF0F1D3CAFAD00AA0470 /* ArearPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BEF101D3CAFC400AA0470 /* province.json */,
+				9A0BEF131D3CAFC400AA0470 /* YTArearPickerView.h */,
+				9A0BEF141D3CAFC400AA0470 /* YTArearPickerView.m */,
+				9A0BEF151D3CAFC400AA0470 /* YTArearPickerView.xib */,
+				9A0BEF111D3CAFC400AA0470 /* YTArearModel.h */,
+				9A0BEF121D3CAFC400AA0470 /* YTArearModel.m */,
+				9A0BEF181D3CAFC500AA0470 /* YTProvinceModel.h */,
+				9A0BEF191D3CAFC500AA0470 /* YTProvinceModel.m */,
+				9A0BEF161D3CAFC400AA0470 /* YTCityModel.h */,
+				9A0BEF171D3CAFC400AA0470 /* YTCityModel.m */,
+				9A0BEF1A1D3CAFC500AA0470 /* YTTownModel.h */,
+				9A0BEF1B1D3CAFC500AA0470 /* YTTownModel.m */,
+				9A0BEF231D3CE0CB00AA0470 /* YTArearBaseModel.h */,
+				9A0BEF241D3CE0CB00AA0470 /* YTArearBaseModel.m */,
+			);
+			path = ArearPickerView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A0BEF0C1D3CAF9500AA0470 /* Build configuration list for PBXNativeTarget "YTArearPickerView" */;
 			buildPhases = (
+				EF55D2F69266A60325C61DE5 /* [CP] Check Pods Manifest.lock */,
 				9A0BEEF11D3CAF9500AA0470 /* Sources */,
 				9A0BEEF21D3CAF9500AA0470 /* Frameworks */,
 				9A0BEEF31D3CAF9500AA0470 /* Resources */,
+				CFF398D595AD9992A003314C /* [CP] Embed Pods Frameworks */,
+				327C6DF2F67762609E1275D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,10 +211,60 @@
 				9A0BEF081D3CAF9500AA0470 /* LaunchScreen.storyboard in Resources */,
 				9A0BEF051D3CAF9500AA0470 /* Assets.xcassets in Resources */,
 				9A0BEF031D3CAF9500AA0470 /* Main.storyboard in Resources */,
+				9A0BEF1F1D3CAFC500AA0470 /* YTArearPickerView.xib in Resources */,
+				9A0BEF1C1D3CAFC500AA0470 /* province.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327C6DF2F67762609E1275D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTArearPickerView/Pods-YTArearPickerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF398D595AD9992A003314C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTArearPickerView/Pods-YTArearPickerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF55D2F69266A60325C61DE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A0BEEF11D3CAF9500AA0470 /* Sources */ = {
@@ -151,7 +272,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0BEF001D3CAF9500AA0470 /* ViewController.m in Sources */,
+				9A0BEF201D3CAFC500AA0470 /* YTCityModel.m in Sources */,
+				9A0BEF1E1D3CAFC500AA0470 /* YTArearPickerView.m in Sources */,
 				9A0BEEFD1D3CAF9500AA0470 /* AppDelegate.m in Sources */,
+				9A0BEF1D1D3CAFC500AA0470 /* YTArearModel.m in Sources */,
+				9A0BEF211D3CAFC500AA0470 /* YTProvinceModel.m in Sources */,
+				9A0BEF251D3CE0CB00AA0470 /* YTArearBaseModel.m in Sources */,
+				9A0BEF221D3CAFC500AA0470 /* YTTownModel.m in Sources */,
 				9A0BEEFA1D3CAF9500AA0470 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +389,7 @@
 		};
 		9A0BEF0D1D3CAF9500AA0470 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04565A11D96EA02F4CE966F9 /* Pods-YTArearPickerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YTArearPickerView/Info.plist;
@@ -273,6 +401,7 @@
 		};
 		9A0BEF0E1D3CAF9500AA0470 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28C0C95EA582D53A7F779BF /* Pods-YTArearPickerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YTArearPickerView/Info.plist;
@@ -301,6 +430,7 @@
 				9A0BEF0E1D3CAF9500AA0470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
